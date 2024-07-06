@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do list</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet"> 
+    <!-- adding font via html-->
+</head>
+
+<body>
+    <section class="container"> 
+        <div class="heading">
+            <h2 class="header">To-do list!</h2>
+            <img src="https://www.pngmart.com/files/15/Easel-Canvas-Board-Background-PNG.png" class="easel-image"
+            alt="chalkboard-easel"> <!--the easel icon-->
+        </div>
+        <form class="form">
+            <input id="todo" class="form_input" type="text" placeholder="What would you like to get done today?" required> 
+            <button class="button">Submit</button> <!--submit button-->
+        </form>
+        <div class="list-container">
+            <ol class="todoList"></ol> <!--wanted numbered list so used ol instead of ul-->
+        </div>
+    </section>
+
+    <script src="index.js"></script> <!-- linking the js file-->
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+@import url(https://fonts.googleapis.com/css2?family=Silkscreen&display=swap);
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    min-height: 100vh;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/637/871/non_2x/cute-summer-sunny-day-weather-character-smiling-with-clouds-in-yellow-background-illustration-vector.jpg);
+    background-size: cover;
+}
+
+.heading{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(141, 199, 234);
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 0px;
+    border-radius: 30px;
+    box-shadow: 3px 5px 10px 2px #b79231;
+    margin-bottom: 50px;
+    margin-top: 40px;
+    font-family: 'Silkscreen', cursive;
+}
+
+.header{
+    margin: 15px;
+}
+.easel-image{
+    height: 100px;
+    display: flex;
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+}
+.form_input{
+    padding: 13px;
+    width: 270px;
+    border-style: solid;
+    border-radius: 30px 0px 0px 30px;
+    border-width: 2px 0px 2px 2px;
+    border-color: black;
+}
+
+.button{
+    padding: 13px;
+    border-radius: 0px 30px 30px 0px;
+    font-family: 'Silkscreen', cursive;
+}
+.list-container{
+   
+    background-color: rgb(141, 199, 234);
+    opacity: 0.95;
+    min-width: 700px;
+    min-height: 300px;
+    margin: 70px;
+    border-radius: 30px;
+    box-shadow: 3px 5px 10px 2px #b79231;
+}
+.item{
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(231, 229, 196);
+    border-radius: 20px;
+    width: 600px;
+    border-bottom: 2px solid rgb(104, 104, 104);
+    font-family: 'Waiting for the Sunrise', cursive;
+    font-weight: 600;
+    font-size: 20px;
+}
